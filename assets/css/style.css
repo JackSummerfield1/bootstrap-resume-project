@@ -11,7 +11,7 @@
 }
 
 .bg-color-personal-info {
-    background-color: #f4f4f4; 
+    background-color: #f4f4f4;
 }
 
 .ui-menu-color-home {
@@ -64,7 +64,7 @@ h4 {
 }
 
 .section-heading {
-    font-family: 'Exo', sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
@@ -215,7 +215,7 @@ footer {
     padding: 20px;
 }
 
-/*--------------------------------------------Three Reasons*/
+/* ----------------------------------------Three Reasons */
 
 .three-reasons-icon {
     font-size: 26px;
@@ -226,7 +226,7 @@ footer {
     margin-bottom: 15px;
 }
 
-/*--------------------------------------------Personal Info*/
+/* ----------------------------------------Personal Info */
 
 .personal-info-item {
     margin-bottom: 20px;
@@ -259,4 +259,25 @@ footer {
 .personal-info-item .value {
     position: relative;
     width: 60%;
+}
+
+/* ----------------------------------------Skills */
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+    margin: 40px 20px;
 }
