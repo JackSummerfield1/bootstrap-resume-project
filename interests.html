@@ -50,6 +50,7 @@
                     </div>
                 </div>
             </div>
+        </div>
     </header>
     <section class="container-fluid">
         <div class="row">
@@ -196,9 +197,14 @@
         </div>
 
     </footer>
-    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0jouZ0sMg9qYuMl0svVraNd2AUzMdgtg&callback=initMap"></script>
+    
+    <!-- Add the correct MarkerClusterer CDN -->
+    <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
+    
+    <!-- Load Google Maps API -->
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0jouZ0sMg9qYuMl0svVraNd2AUzMdgtg&callback=initMap&libraries=marker">
+    </script>
     <script src="assets/js/maps.js"></script>
-</body>
-
+    </body>
 </html>
